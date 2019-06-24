@@ -1,0 +1,142 @@
+/**{
+    background-color: red;
+}*/
+.body{
+    font-family: 'Roboto', sans-serif;
+}
+.site_header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+
+.align-item-center {
+    align-items: center;
+}
+
+.justify_content_between {
+    justify-content: space-between;
+}
+
+.flex_nowrap {
+    flex-wrap: nowrap;
+}
+
+.max_width {
+    max-width: 100%;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+.none-display{
+    display: none;
+}
+}
+
+.max_height_logo{
+    max-height: 180px;
+}
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.p-2 {
+    padding: .5rem !important;
+}
+
+.py-1 {
+    padding-bottom: .25rem !important;
+}
+
+.mb-2 {
+    padding-bottom: .25rem !important;
+}
+
+.rounded {
+    border-radius: .25rem !important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+.jumbotron{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.jumbotron-photo{
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.jumbotron-heading{
+    font-weight: 300;
+}
+.fa-angle-down{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.fa-fish, .fa-dna, .fa-chart-bar{
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #e38700;
+}
+.text-align-center{
+    text-align: center;
+}
+.lab-research{
+
+    border-bottom: 1px solid #e5e5e5;
+}
+.card-group{
+    display: flex;
+}
+.card-body{
+    background-color: #f9f7f6;
+}
+.no-list{
+    list-style: none;
+    padding: 0;
+}
+.inline-block{
+    display: inline-block;
+}
+.celeste{
+    color: #22a4ed;
+}
+.azul{
+    color: #00268a;
+}
+.naranjo{
+    color: #e38700;
+}
+.bk-azul{
+    background-color: #22a4ed;
+    color: white;
+}
+.line-height{
+    line-height: normal;
+}
+.max_height_80{
+    max-height: 80px;
+}
+.favet{
+    padding: 10px 0 0 90px;
+margin-top: 9px;
+}
